@@ -9,7 +9,7 @@ import CoursePages from "./pages/CoursePages";
 import Categories from "./pages/Categories";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import Signup from "./pages/SignUp";
 import Dashboard from "./pages/Dashboard";
 import CourseDetails from "./pages/CourseDetails";
 
