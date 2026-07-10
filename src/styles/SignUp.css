@@ -1,0 +1,143 @@
+.signup-page {
+  min-height: 100vh;
+  background: #f8fbff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+}
+
+.signup-card {
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.signup-card h1 {
+  text-align: center;
+  color: #1f2d3d;
+  margin-bottom: 15px;
+}
+
+.signup-card p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.signup-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-card label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #1f2d3d;
+}
+
+.signup-card input[type="text"],
+.signup-card input[type="tel"],
+.signup-card input[type="email"],
+.signup-card input[type="password"] {
+  padding: 14px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+.signup-card input:focus {
+  border-color: #2f80ed;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.terms label {
+  margin: 0;
+  font-weight: 500;
+}
+
+.signup-button {
+  padding: 14px;
+  background: #2f80ed;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.signup-button:hover {
+  background: #1b66d1;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.login-link a {
+  color: #2f80ed;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .signup-card {
+    padding: 35px 25px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .signup-page {
+    padding: 40px 15px;
+  }
+
+  .signup-card {
+    padding: 30px 20px;
+  }
+
+  .signup-card h1 {
+    font-size: 30px;
+  }
+
+  .signup-button {
+    width: 100%;
+  }
+
+  .terms {
+    align-items: flex-start;
+  }
+}
+.back-link {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.back-link a {
+  text-decoration: none;
+  color: blue;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,47 @@
+.performance-section {
+    margin-top: 40px;
+}
+
+.performance-section h2 {
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.performance-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.performance-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.performance-card:hover {
+    transform: translateY(-5px);
+}
+
+.performance-card h3 {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.performance-card h1 {
+    color: #2563eb;
+    margin-bottom: 10px;
+    font-size: 34px;
+}
+
+.performance-card p {
+    color: #777;
+}
+
+@media (max-width:768px) {
+    .performance-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,42 @@
+.welcome-card {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  border-radius: 18px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.welcome-text h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.welcome-text p {
+  font-size: 17px;
+  opacity: 0.95;
+}
+
+.welcome-image img {
+  width: 120px;
+  height: 120px;
+}
+
+@media (max-width: 768px) {
+  .welcome-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .welcome-text h1 {
+    font-size: 26px;
+  }
+
+  .welcome-image img {
+    width: 90px;
+    height: 90px;
+  }
+}

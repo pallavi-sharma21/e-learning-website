@@ -1,0 +1,284 @@
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 8%;
+
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(12px);
+
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* ===========================
+   LOGO
+=========================== */
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  text-decoration: none;
+}
+
+.logo-icon {
+  font-size: 30px;
+  color: #2563eb;
+}
+
+.logo h2 {
+  color: #111827;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* ===========================
+   LINKS
+=========================== */
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+
+  list-style: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #374151;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  position: relative;
+
+  transition: 0.3s;
+}
+
+/* Underline Animation */
+
+.nav-links li a::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+
+  width: 0;
+  height: 3px;
+
+  background: #2563eb;
+
+  transition: 0.3s;
+}
+
+.nav-links li a:hover::after,
+.nav-links li a.active::after {
+  width: 100%;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #2563eb;
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.login-btn {
+
+  padding: 12px 26px;
+
+  border-radius: 10px;
+  border: 2px solid #2563eb;
+
+  background: transparent;
+  color: #2563eb;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+
+  background: #2563eb;
+  color: white;
+
+  transform: translateY(-2px);
+}
+
+.signup-btn {
+
+  padding: 12px 26px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: linear-gradient(135deg,#2563eb,#1d4ed8);
+
+  color: white;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.signup-btn:hover {
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 10px 25px rgba(37,99,235,0.35);
+}
+
+/* ===========================
+   HAMBURGER
+=========================== */
+
+.hamburger {
+
+  display: none;
+
+  font-size: 26px;
+
+  cursor: pointer;
+
+  color: #2563eb;
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:992px){
+
+.nav-links{
+
+position:absolute;
+
+top:80px;
+left:0;
+
+width:100%;
+
+background:white;
+
+flex-direction:column;
+
+padding:30px 0;
+
+gap:25px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+display:none;
+
+}
+
+.nav-links.active{
+
+display:flex;
+
+}
+
+.nav-buttons{
+
+display:none;
+
+}
+
+.hamburger{
+
+display:block;
+
+}
+
+}
+
+/* ===========================
+   SMALL MOBILE
+=========================== */
+
+@media(max-width:600px){
+
+.navbar{
+
+padding:15px 25px;
+
+}
+
+.logo h2{
+
+font-size:24px;
+
+}
+
+.logo-icon{
+
+font-size:26px;
+
+}
+
+}
+/* Hide mobile buttons on desktop */
+.mobile-buttons{
+    display:none;
+}
+
+/* Mobile View */
+@media (max-width:768px){
+
+    /* Hide desktop buttons */
+    .nav-buttons{
+        display:none;
+    }
+
+    /* Show buttons inside menu */
+    .mobile-buttons{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-top:25px;
+
+}
+
+    .mobile-buttons a{
+        width:100%;
+    }
+
+    .mobile-buttons button{
+        width:100%;
+        padding:12px;
+        border-radius:10px;
+    }
+
+}

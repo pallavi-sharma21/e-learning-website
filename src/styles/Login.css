@@ -1,0 +1,151 @@
+.login-page {
+  min-height: 100vh;
+  background: #f8fbff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 450px;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,.08);
+}
+
+.login-card h1 {
+  text-align: center;
+  color: #1f2d3d;
+  margin-bottom: 15px;
+}
+
+.login-card p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-card label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #1f2d3d;
+}
+
+.login-card input[type="email"],
+.login-card input[type="password"] {
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  outline: none;
+}
+
+.login-card input:focus {
+  border-color: #2f80ed;
+}
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.remember label {
+  margin: 0;
+  font-weight: 500;
+}
+
+.forgot-link {
+  text-decoration: none;
+  color: #2f80ed;
+  font-size: 15px;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  background: #2f80ed;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.login-button:hover {
+  background: #1b66d1;
+}
+
+.signup-link {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.signup-link a {
+  color: #2f80ed;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* Tablet */
+
+@media (max-width:768px) {
+
+  .login-card {
+    padding: 35px 25px;
+  }
+
+}
+
+/* Mobile */
+
+@media (max-width:480px) {
+
+  .login-page {
+    padding: 40px 15px;
+  }
+
+  .login-card {
+    padding: 30px 20px;
+  }
+
+  .login-card h1 {
+    font-size: 30px;
+  }
+
+  .login-options {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .login-button {
+    width: 100%;
+  }
+
+}
