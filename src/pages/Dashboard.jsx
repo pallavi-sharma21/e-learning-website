@@ -1,11 +1,10 @@
-import Sidebar from "../components/dashboard/Sidebar";
-import TopNavbar from "../components/dashboard/TopNavbar";
-
-import WelcomeCard from "../components/dashboard/WelcomeCard";
-import StatsCards from "../components/dashboard/StatsCards";
-import CourseSection from "../components/dashboard/CourseSection";
-import Performance from "../components/dashboard/Performance";
-import ProfileCard from "../components/dashboard/ProfileCard";
+import Sidebar from "../components/Dashboard/Sidebar";
+import TopNavbar from "../components/Dashboard/TopNavbar";
+import WelcomeCard from "../components/Dashboard/WelcomeCard";
+import StatsCards from "../components/Dashboard/StatsCards";
+import CourseSection from "../components/Dashboard/CourseSection";
+import Performance from "../components/Dashboard/Performance";
+import ProfileCard from "../components/Dashboard/ProfileCard";
 
 import "../styles/Dashboard.css";
 
