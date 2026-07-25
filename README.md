@@ -1,35 +1,124 @@
-# LearnHub - E-Learning Website
+# 📚 E-Learning Website
 
-## 📖 About
-LearnHub is a responsive e-learning website built using React.js. It allows users to browse courses, search for courses, enroll in them, and view enrolled courses on a personalized dashboard.
+A modern and responsive E-Learning Website built using **React.js**, **HTML**, **CSS**, and **JavaScript**. The platform provides an engaging learning experience with course browsing, authentication, a student dashboard, and a clean, responsive user interface.
 
-## 🚀 Features
-- Home, About, Courses, Categories & Contact pages
-- User Login & Signup
-- Search Courses
-- Enroll in Courses
-- Dashboard with enrolled courses
-- Course Details
+---
+
+## 🚀 Live Demo
+
+🔗 https://e-learning-website-jmaaqo363-pallavi-sharma2026.vercel.app/
+
+---
+
+## 💻 GitHub Repository
+
+🔗 https://github.com/pallavi-sharma21/e-learning-website
+
+---
+
+## ✨ Features
+
 - Responsive Design
+- User Login & Signup
+- Local Storage Authentication
+- Student Dashboard
+- Course Search Functionality
+- Course Details Page
+- Course Categories
+- Contact Page
+- Modern UI/UX
 - React Router Navigation
-- LocalStorage for authentication and enrolled courses
+
+---
 
 ## 🛠️ Tech Stack
+
 - React.js
-- React Router DOM
+- JavaScript (ES6+)
+- HTML5
 - CSS3
-- JavaScript (ES6)
+- React Router DOM
+- React Icons
 - Vite
 
-## 📂 Installation
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── assets/
+│── components/
+│   ├── Dashboard/
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   └── ...
+│
+│── pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── CoursePages.jsx
+│   ├── CourseDetails.jsx
+│   ├── Categories.jsx
+│   ├── Contact.jsx
+│   ├── Login.jsx
+│   ├── SignUp.jsx
+│   └── Dashboard.jsx
+│
+│── styles/
+│── App.jsx
+└── main.jsx
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
 
 ```bash
-git clone <repository-link>
-cd learnhub
+git clone https://github.com/pallavi-sharma21/e-learning-website.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd e-learning-website
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
+
+Run the development server:
+
+```bash
 npm run dev
 ```
 
-## 👩‍💻 Author
+---
 
-**Pallavi Sharma**
+## 📸 Screens
+
+- Home Page
+- About Page
+- Courses Page
+- Course Details Page
+- Login & Signup
+- Student Dashboard
+- Contact Page
+
+---
+
+## 👩‍💻 Developer
+
+**Pallavi Kumari Sharma**
+
+- GitHub: https://github.com/pallavi-sharma21
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub!
