@@ -1,4 +1,4 @@
-import "../../styles/dashboard/Performance.css";
+import "../../styles/Dashboard/Performance.css";
 
 function Performance() {
   return (

@@ -1,4 +1,4 @@
-import "../../styles/dashboard/ProfileCard.css";
+import "../../styles/Dashboard/ProfileCard.css";
 
 function ProfileCard() {
   const user = JSON.parse(localStorage.getItem("user"));

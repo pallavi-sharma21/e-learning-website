@@ -1,4 +1,4 @@
-import "./../../styles/dashboard/WelcomeCard.css";
+import "./../../styles/Dashboard/WelcomeCard.css";
 
 function WelcomeCard() {
   const user = JSON.parse(localStorage.getItem("user"));

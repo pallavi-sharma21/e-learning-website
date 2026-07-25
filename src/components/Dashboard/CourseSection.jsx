@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import "../../styles/dashboard/CourseSection.css";
+import "../../styles/Dashboard/CourseSection.css";
 
 function CourseSection() {
 

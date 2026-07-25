@@ -7,7 +7,7 @@ import {
   FaGraduationCap,
 } from "react-icons/fa6";
 
-import "../../styles/dashboard/Sidebar.css";
+import "../../styles/Dashboard/Sidebar.css";
 
 function Sidebar() {
   const navigate = useNavigate();

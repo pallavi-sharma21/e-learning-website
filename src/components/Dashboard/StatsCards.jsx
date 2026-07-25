@@ -7,7 +7,7 @@ import {
 
 import { useEffect, useState } from "react";
 
-import "../../styles/dashboard/StatsCards.css";
+import "../../styles/Dashboard/StatsCards.css";
 
 function StatsCards() {
 
